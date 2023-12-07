@@ -1,0 +1,50 @@
+.form-container {
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid black;
+    top: 80px;
+  }
+  .details{
+    position: relative;
+    top: 30px;
+  }
+  .d1{
+    position: relative;
+    border: 0.5px solid blue;
+    background-color: #bcd3ec;
+    width: 100%;
+    top: -20px;
+    right: 5%;
+    border-radius: 5px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+  }
+  
+  button {
+    position: relative;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    margin: 90px;
+    left: 40%;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }

@@ -1,0 +1,35 @@
+/* Basic styling for the form container */
+div {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Styling for each question label */
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the textareas */
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    resize: vertical; /* Allow vertical resizing of the textarea */
+  }
+  
+  /* Styling for the submit button (you can customize this based on your needs) */
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }

@@ -1,0 +1,40 @@
+.all{
+    position: fixed;
+    right: 75%;
+    top: 20px;
+    text-decoration: none;
+}
+
+.hello5{
+    border: 1px solid black;
+    width: 60%;
+    border-radius: 5px;
+    height: 50%;
+    text-decoration: none;
+}
+
+.hello{
+    display:flex;
+    flex-direction:column;
+    margin-right: 20rem;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+
+.hello2{
+ color: black;
+ font-family: sans-serif;  
+ border: 1px solid black;
+ width: 60%;
+ border-radius: 5px;
+ height: 50%;
+ text-decoration: none;
+}
+.hello2:hover{
+    background-color: #fff;
+    border: 1px solid blue;
+    cursor: pointer;
+    width: 60%;
+}

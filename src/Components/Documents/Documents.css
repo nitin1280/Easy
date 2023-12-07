@@ -1,0 +1,31 @@
+.form-container {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    display: flex;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  button {
+    background-color: blue;
+    color: black;
+    padding: 5px;
+    cursor: pointer;
+    border: 2px solid black;
+  }
